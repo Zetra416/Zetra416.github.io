@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #EEE9E5;
+}
+
+#header{
+  padding: 10px;
+  padding-left: 100px;
+  background-color: #EEE9E5;
+  color: #696969;
+  font-size: 30px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EEE9E5;
+}
+
+li a {
+  margin: 10px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  padding-right: 100px;
+}
+
+li a:hover:not(.active) {
+  background-color: #595959;
+}
+.active {
+  background-color: #666666;
+}
+
+li {
+  float: right;
+}
+
+.profile-picture img {
+  margin-left: 10%;
+  border: 7px double black;
+  border-radius: 50%;
+  float: left;
+  position: absolute;
+}
+
+.content {
+display: inline-box;
+
+}
+
+.about-me {
+  float: left;
+  position: absolute;
+  margin-left: 50%;
+  margin-right: 5%;
+
+}
+
+.about-me h1, h2 {
+  margin-bottom: 10px;
+
+}
+.about-me h1 {
+  font-size: 60px;
+  font-family: 'Merriweather' ;
+}
+
+.about-me h2 {
+  font-size: 40px;
+  font-family: 'Merriweather' ;
+}
+
+.about-me p, h7 {
+  font-size: 20px;
+  font-family: 'Raleway' ;
+}
+
+.contact-nav li {
+  float: left;
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.logo-contact {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: autox;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
